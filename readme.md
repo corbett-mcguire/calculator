@@ -14,9 +14,8 @@ Build a JS Calculator
 1.  Go inside the folder you just cloned.
 1.  Create a web file structure.
     * Create the file **`index.html`**.
-    * Create the folder **`js`**.
-    * Inside the folder **js** create the file **`script.js`**.
-1.  Go back to the **js-calculator** folder and open VScode.
+    * Create the file **`script.js`**.
+1.  Open VScode.
 1.  In your `index.html` file, add a HTML boilerplate `HTML:5`.
 1.  Add a script tag to import your `script.js` file.
 1.  Go to your `script.js` file and add a console.log, i.e: `console.log("script file is linked")`.
@@ -28,9 +27,11 @@ Now you are all set to build your calculater.
 
 Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 8:00am (central).
 
+When you finish the requirments, create a pull request to submit your work :wink:
+
 ## Requirements
 
-Your task is to create a Javascript object that represents a calculator. It should have methods that provide it with the following functionality...
+Your task is to create a Javascript **object** that represents a calculator. It should have methods that provide it with the following functionality...
 
 - Addition
 - Subtraction
@@ -41,11 +42,11 @@ Your task is to create a Javascript object that represents a calculator. It shou
 
 Commit your progress every time you finish a calculater method. add a nice commit message, i.e "Finish Addition method".
 
-You should be able to run these methods like so from your browser's Javascript console...
+You should be able to run these methods like so from your browser's console...
 
 ```js
 calculator.add(1,2);
-// => 3
+// output: 3
 ```
 
 ## Hungry for more???
@@ -58,21 +59,28 @@ For example:
 
 ```js
 calculator.add(1)
-// value is 1
+// output:  1
 calculator.add(2)
-// value is 3
+// output:  3
 calculator.add(2)
-// value is 5
+// output:  5
 calculator.multiply(2)
-// value is 10
+// output:  10
 ```
-## Bonus 2
 
-Give your calculator a "master" method that can parse through a string of operations (e.g., `(2 - 1) * (5 ^ 2)`)
-* Your calculator should still have memory.
+## Bonus 1
+Give your calculator a "master" method that can parse through a string of operations.
 
-
-
+e.g.
+```js
+calculator.master("2 - 1")
+// output:  1
+calculator.master("2 * 10")
+// output:  20
+calculator.master("3 + 27")
+// output:  30
+```
+Your calculator should still have memory.
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
