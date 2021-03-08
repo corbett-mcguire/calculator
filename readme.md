@@ -15,19 +15,19 @@ Build a JS Calculator
 1.  Create a web file structure.
     * Create the file **`index.html`**.
     * Create the file **`script.js`**.
-1.  Open VScode.
-1.  In your `index.html` file, add a HTML boilerplate `HTML:5`.
+1.  Open IntelliJ.
+1.  In your `index.html` file, add a HTML boilerplate `!`.
 1.  Add a script tag to import your `script.js` file.
 1.  Go to your `script.js` file and add a console.log, i.e: `console.log("script file is linked")`.
-1.  Open the file `index.html` in your brownser, and open your console (**command** + **option** + **j**)
+1.  Open the file `index.html` in your browser, and open your console (**command** + **option** + **j**)
 1.  You should be able to see your message in the console.log, if you are not seeing your message go to step 5 and review your steps from there. 
 
 Now you are all set to build your calculater.
 
 
-Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 8:00am (central).
+Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 9:00am (central).
 
-When you finish the requirments, create a pull request to submit your work :wink:
+When you finish the requirements, create a pull request to submit your work :wink:
 
 ## Requirements
 
@@ -40,7 +40,7 @@ Your task is to create a Javascript **object** that represents a calculator. It 
 - Exponents (Hint: Look up Javascript's Math object)
 - Square root (Hint: Look up Javascript's Math object)
 
-Commit your progress every time you finish a calculater method. add a nice commit message, i.e "Finish Addition method".
+Commit your progress every time you finish a calculator method. Add a nice commit message, i.e "Finish Addition method".
 
 You should be able to run these methods like so from your browser's console...
 
